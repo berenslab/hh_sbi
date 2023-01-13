@@ -1,10 +1,10 @@
 # ignore simulations
-./code/save_sims/
+./code/save_sims/*
 # ignore sbi logs
-./code/sbi-logs/
+./code/sbi-logs/*
 # ignore __pycache
-./code/__pycache__/
+./code/__pycache__/*
 # ignore raw data
-./data/raw_data/
+./data/raw_data/*
 # ignore ipynb checkpoint
-./code/.ipynb_checkpoints/
+./code/.ipynb_checkpoints/*
