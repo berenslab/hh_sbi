@@ -289,7 +289,7 @@ class EphysModel:
                 print('summary statistics shape: ', self.stats.shape)        
         
                     
-    def _simulation_wrapper(self, params): 
+    def _simulation_wrapper(self, params):
         obs = self._run_HH_model(params)
         summstats = torch.as_tensor(self._calculate_summary_statistics(obs))
         return summstats
@@ -308,7 +308,7 @@ class EphysModel:
         else:
 
             ###################
-            # Brian 2 initiliasations to make it run faster in C++
+            # Brian 2 initializations to make it run faster in C++
 
             device.reinit() 
             # 'cython' could make this code run faster (check paper, converting to C++ blocks of code)
