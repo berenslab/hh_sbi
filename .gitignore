@@ -8,3 +8,7 @@
 ./data/raw_data/*
 # ignore ipynb checkpoint
 ./code/.ipynb_checkpoints/*
+# ignore saved Keras models
+./code/deploy_sRRR_and_sBNN/KerasSavedModels/*
+# ignore pycache
+./code/deploy_sRRR_and_sBNN/__pycache__/*
