@@ -2,7 +2,7 @@
 This repository presents the code for the manuscript [insert].
 
 ## Raw data
-Raw data can be publicly downloaded from [here](https://dandiarchive.org/dandiset/000008/draft) corresponding to [this](https://www.nature.com/articles/s41586-020-2907-3) study published in Nature. Instructions on how to do so with `dandi` are also found there. Make sure you download the data in `./data/raw_data`.
+Raw data can be publicly downloaded [here](https://dandiarchive.org/dandiset/000008/draft) corresponding to a study published in [Nature](https://www.nature.com/articles/s41586-020-2907-3). Instructions on how to do so with `dandi` are also found there. Make sure you download the data in `./data/raw_data`.
 
 ## Requirements
 - [dandi](https://dandiarchive.org/) (see `raw data`) <br>
