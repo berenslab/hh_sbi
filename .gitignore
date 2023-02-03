@@ -12,3 +12,5 @@
 ./code/deploy_sRRR_and_sBNN/KerasSavedModels/*
 # ignore pycache
 ./code/deploy_sRRR_and_sBNN/__pycache__/*
+# ignore pycache
+./code/without_rSS/__pycache__/*
