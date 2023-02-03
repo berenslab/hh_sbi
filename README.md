@@ -1,4 +1,4 @@
-# Simulator-based inference for Hodgkin-Huxley-based models.
+# Hybrid statistical-mechanistic modeling links ion channel genes to physiology of cortical neuron types
 This repository presents the code for the manuscript [insert].
 
 ## Raw data
