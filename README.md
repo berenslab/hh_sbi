@@ -4,7 +4,7 @@ This repository presents the code for the manuscript [insert].
 ## Raw data
 Raw electrophysiological recordings can be publicly downloaded [here](https://dandiarchive.org/dandiset/000008/draft) corresponding to a study published in [Nature](https://www.nature.com/articles/s41586-020-2907-3). Instructions on how to do so with `dandi` are also found there. Make sure you download the data in `./data/raw_data`.
 <br>
-You will also need `SmartSeq_cells_AIBS.pickle` in `./data/` that can found [here](https://zenodo.org/record/5118962#.Y-IkqHbMIuU).
+You will also need `SmartSeq_cells_AIBS.pickle` in `./data/` that can be downloaded from [here](https://zenodo.org/record/5118962#.Y-IkqHbMIuU).
 
 ## Requirements
 - [dandi](https://dandiarchive.org/) (see `raw data`) <br>
