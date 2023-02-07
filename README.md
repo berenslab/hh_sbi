@@ -1,6 +1,9 @@
 # Hybrid statistical-mechanistic modeling links ion channel genes to physiology of cortical neuron types
 ![NPE_vs_NPE+](figures/figure_1abc.png)
-This repository presents the code for the manuscript [insert].
+
+*Bernaerts Yves, Deistler Michael, Gon&Ccedil
+
+This repository contains the analysis code and the preprocessed data for the above manuscript.
 
 ## Raw data
 Raw electrophysiological recordings can be publicly downloaded [here](https://dandiarchive.org/dandiset/000008/draft) corresponding to a study published in [Nature](https://www.nature.com/articles/s41586-020-2907-3). Instructions on how to do so with `dandi` are also found there. Make sure you download the data in `./data/raw_data`.
