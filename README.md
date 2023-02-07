@@ -12,6 +12,10 @@ You will also need `SmartSeq_cells_AIBS.pickle` in `./data/` that can be downloa
 <br>
 The rest of the (preprocessed) data can be found in `./data/`.
 
+## Analysis and figures
+# 1. Preprocess data
+
+
 ## Requirements
 - [dandi](https://dandiarchive.org/) (see `raw data`) <br>
 - [pynwb](https://pynwb.readthedocs.io/en/stable/): `pip install -U pynwb` tested with version 2.2.0 <br> 
