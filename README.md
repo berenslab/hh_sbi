@@ -17,7 +17,7 @@ The rest of the (preprocessed) data can be found in `./data/`.
 Run `./code/preprocess.ipynb` (optionally) to automatically extract summary statistics of the raw electrophysiological recordings. Results can be found in `./code/pickles/M1_features.pickle`. Inspired by work found [here](https://github.com/berenslab/EphysExtraction) and [here](https://github.com/AllenInstitute/AllenSDK/tree/master/allensdk/ephys).
 
 ### 2. Build simulations
-Run `./code/build_simulations.ipynb' to produce Hodgkin-Huxley model simulations with the simulation package Brian2 (see Requirements). We also used the parallel processing package pathos (see Requirements) that you can use if your station has multiple cpu's available. Otherwise one can change the number of available resources by changing the  
+Run `./code/build_simulations.ipynb` to produce Hodgkin-Huxley model simulations with the simulation package Brian2 (see Requirements). We also used the parallel processing package pathos (see Requirements) that you can use if your station has multiple cpu's available. Otherwise one can change the number of available resources by changing the  
 
 ### 3. Build amortized posteriors with neural posterior estimation
 Run `./code/build_amortized_posteriors.ipynb` to produce amortized posteriors set up with different training schedules. Two of the posteriors will be **NPE** and **NPE+** discussed in the mansucript. We use the simulator-based inference package sbi (see Requirements).
@@ -33,6 +33,7 @@ Run `./code/without_rSS/build_simulations.ipynb` to produce Hodgkin-Huxley model
 
 ### 8. Figures
 Run `./figures/figure_x.ipynb` to produce Figure **x** in the manuscript.
+<br>
 <br>
 **ToDo** Include code that utilizes [fslm](https://github.com/berenslab/fslm) to extract most constraining summary statistics and produces Figure 2. Check conflicting package versions?
 
