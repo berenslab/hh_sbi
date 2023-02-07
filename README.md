@@ -1,5 +1,5 @@
 # Hybrid statistical-mechanistic modeling links ion channel genes to physiology of cortical neuron types
-![NPE_vs_NPE+](figures/figure_1bc.png)
+![NPE_vs_NPE+](figures/figure_1abc.png)
 This repository presents the code for the manuscript [insert].
 
 ## Raw data
