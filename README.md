@@ -1,7 +1,7 @@
 # Hybrid statistical-mechanistic modeling links ion channel genes to physiology of cortical neuron types
 ![NPE_vs_NPE+](figures/figure_1abc.png)
 
-*Bernaerts Yves, Deistler Michael, Gon&Ccedil
+*Yves Bernaerts, Michael Deistler, Pedro J. Gonçalves, Jonas Beck, Marcel Stimberg, Federico Scala, Andreas S. Tolias, Jakob Macke, Dmitry Kobak & Philipp Berens. (2023)* 
 
 This repository contains the analysis code and the preprocessed data for the above manuscript.
 
