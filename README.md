@@ -13,8 +13,14 @@ You will also need `SmartSeq_cells_AIBS.pickle` in `./data/` that can be downloa
 The rest of the (preprocessed) data can be found in `./data/`.
 
 ## Analysis and figures
-# 1. Preprocess data
+### 1. Preprocess data
+Run `./code/preprocess.ipynb` (optionally) to extract summary statistics of the raw electrophysiological recordings. Results can be found in `./code/pickles/M1_features.pickle`.
 
+### 2. Build simulations
+Run `./code/build_simulations.ipynb' to produce Hodgkin-Huxley model simulations.
+
+### 3. Build amortized posteriors with neural posterior estimation.
+Run `./code/build_amortized_posteriors.ipynb` to produce amortized posteriors.
 
 ## Requirements
 - [dandi](https://dandiarchive.org/) (see `raw data`) <br>
