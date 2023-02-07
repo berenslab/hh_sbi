@@ -20,7 +20,12 @@ Run `./code/preprocess.ipynb` (optionally) to extract summary statistics of the 
 Run `./code/build_simulations.ipynb' to produce Hodgkin-Huxley model simulations.
 
 ### 3. Build amortized posteriors with neural posterior estimation.
-Run `./code/build_amortized_posteriors.ipynb` to produce amortized posteriors.
+Run `./code/build_amortized_posteriors.ipynb` to produce amortized posteriors with different training schedules. Two of the posteriors will be NPE and NPE+ discussed in the mansucript.
+
+### 4. Report performance
+Run `./code/report_performances.ipynb` to compare the closeness of posterior samples -- derived from the different posteriors -- to experimental observations.
+
+###
 
 ## Requirements
 - [dandi](https://dandiarchive.org/) (see `raw data`) <br>
