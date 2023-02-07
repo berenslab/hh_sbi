@@ -14,22 +14,25 @@ The rest of the (preprocessed) data can be found in `./data/`.
 
 ## Analysis and figures
 ### 1. Preprocess data
-Run `./code/preprocess.ipynb` (optionally) to extract summary statistics of the raw electrophysiological recordings. Results can be found in `./code/pickles/M1_features.pickle`.
+Run `./code/preprocess.ipynb` (optionally) to automatically extract summary statistics of the raw electrophysiological recordings. Results can be found in `./code/pickles/M1_features.pickle`. Inspired by work found [here](https://github.com/berenslab/EphysExtraction) and [here](https://github.com/AllenInstitute/AllenSDK/tree/master/allensdk/ephys).
 
 ### 2. Build simulations
-Run `./code/build_simulations.ipynb' to produce Hodgkin-Huxley model simulations.
+Run `./code/build_simulations.ipynb' to produce Hodgkin-Huxley model simulations with the simulation package Brian2 (see Requirements).
 
 ### 3. Build amortized posteriors with neural posterior estimation
-Run `./code/build_amortized_posteriors.ipynb` to produce amortized posteriors with different training schedules. Two of the posteriors will be NPE and NPE+ discussed in the mansucript.
+Run `./code/build_amortized_posteriors.ipynb` to produce amortized posteriors set up with different training schedules. Two of the posteriors will be NPE and NPE+ discussed in the mansucript. We use the simulator-based inference package sbi (see Requirements).
 
 ### 4. Report performance
 Run `./code/report_performances.ipynb` to compare the closeness of posterior samples -- derived from the different posteriors -- to experimental observations.
 
 ### 5. Deploy sparse reduced-rank regression and sparse bottleneck neural networks
-Run `./code/deploy_sRRR_and_sBNN/cross-validation.ipynb` to run regression analyses that predict maximum a posteriori estimates from NPE+, i.e. fitted Hodgkin-Huxley model parameters, from gene expression levels. This work is inspired by code found here(https://github.com/berenslab/patch-seq-rrr) and [here](https://github.com/berenslab/sBNN).
+Run `./code/deploy_sRRR_and_sBNN/cross-validation.ipynb` to run regression analyses that predict maximum a posteriori estimates from NPE+, i.e. fitted Hodgkin-Huxley model parameters, from gene expression levels. This work is inspired by code found [here](https://github.com/berenslab/patch-seq-rrr) and [here](https://github.com/berenslab/sBNN).
 
 ### 7. Model without scaling $r_{SS}$ parameter
-jfmq
+Run `./code/without_rSS/build_simulations.ipynb` to produce Hodgkin-Huxley model simulations without the $r_{SS}$ parameter.
+
+### 8. Figures
+Run `./figures/figure_**x**.ipynb` to produce Figure **x** in the manuscript.
 
 ## Requirements
 - [dandi](https://dandiarchive.org/) (see `raw data`) <br>
