@@ -44,6 +44,6 @@ Run `./figures/figure_x.ipynb` to produce Figure **x** in the manuscript.
 - [sbi](https://www.mackelab.org/sbi/reference/): `pip install sbi` tested with version 0.21.0 (this will also install torch) <br>
 - [pathos](https://github.com/uqfoundation/pathos): `pip install pathos` tested with version 0.2.8 <br>
 - [openTSNE](https://opentsne.readthedocs.io/en/latest/installation.html#conda): `pip install opentsne` tested with version 0.6.2 <br>
-In case you would want to run additional regression analyses with sparse reduced-rank regression and [sparse bottleneck neural networks](https://github.com/berenslab/sBNN/) as done in `code/deploy_sRRR_and_sBNN/` and to produce `figures/figure_4.png` for instance you will need: <br>
+In case you would want to run additional regression analyses with [sparse reduced-rank regression](https://github.com/berenslab/patch-seq-rrr) and [sparse bottleneck neural networks](https://github.com/berenslab/sBNN/) as done in `code/deploy_sRRR_and_sBNN/` and to produce `figures/figure_4.png` for instance you will need: <br>
 - [glmnet_python](https://github.com/bbalasub1/glmnet_python/): `pip install glmnet_py`, and <br>
 - [TensorFlow](https://www.tensorflow.org/): `pip install tensorflow` tested with version 2.7.0. <br>
