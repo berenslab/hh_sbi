@@ -51,10 +51,8 @@ class EphysModel:
     provided to the model, reproduces the observation closely.
     """
     
-    def __init__(self, name, T, E_Na, E_K, E_Ca, start=100, end=700, dt=0.04, ephys_features=None,
-                 label_params=None, use_feature_list=None, use_param_list=None, area_Vi_list=None,
-                 ephys_limits=None, n_processes=None, verbose=True, use_pathos=False, noise_factor=10, seed=None, chunk_size=None,
-                 save_chunks=False):
+    def __init__(self, name, T, E_Na, E_K, E_Ca, start=100, end=700, dt=0.04,
+                 n_processes=None, verbose=True, use_pathos=False, noise_factor=10, seed=None, chunk_size=None, save_chunks=False):
         """
         Initializing the ephys object.
         
@@ -68,15 +66,6 @@ class EphysModel:
         start: start of current clamp protocol (ms, optional, default=100)
         end: end of current clamp protocol (ms, optional, default=700)
         dt: time step (ms, optional, default=0.04)
-        ephys_features: list of names of summary statistics (optional, default=None)
-        label_params: list of names of the parameters (optional, default=None)
-        use_feature_list: list of summary statistic indices that correspond to features you'd like to keep for the inference
-                          (optional, default=None)
-        use_param_list: list of parameter indices that correspond to parameters you'd like to keep for the inference
-                          (optional, default=None)
-        area_Vi_list: list of parameter indices that correspond to the area and initial membrane voltage you'd like to convert to
-                          observed summary statistics (optional, default=None)
-        ephys_limits: dictionary with upper and lower limits for every ephys feature
         n_processes: amount of parallel workers available (optional, default=None)
         verbose: set to False if you'd not like to see printed information (optional, default=True)
         use_pathos: if True we try parallelization with pathos (optional, default=False)
@@ -93,12 +82,6 @@ class EphysModel:
         self.start=start
         self.end=end
         self.dt=dt
-        self.ephys_features=ephys_features
-        self.label_params=label_params
-        self.use_feature_list=use_feature_list
-        self.use_param_list=use_param_list
-        self.area_Vi_list=area_Vi_list
-        self.ephys_limits=ephys_limits
         self.n_processes=n_processes
         self.verbose=verbose
         self.use_pathos=use_pathos
@@ -107,14 +90,8 @@ class EphysModel:
         self.chunk_size=chunk_size
         self.save_chunks=save_chunks
         
-        self.obs=None
-        self.xo=None
         self.theta=None
         self.stats=None
-        self.used_ephys_features=None
-        self.used_params=None
-        self.pruned_ephys=False
-        self.posterior=None
     
         
     def sim(self, params):
