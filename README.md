@@ -10,7 +10,7 @@ Raw electrophysiological recordings can be publicly downloaded [here](https://da
 <br>
 You will also need `SmartSeq_cells_AIBS.pickle` in `./data/` that can be downloaded from [here](https://zenodo.org/record/5118962#.Y-IkqHbMIuU).
 <br>
-Unzip file `code/save_model_parameters/favourite_training_schedule.zip` and put in the same folder as `favourite_training_schedule.pickle`.
+Unzip file `code/save_model_parameters/favourite_training_schedule.zip` and put it in the same folder as `favourite_training_schedule.pickle`.
 <br>
 The rest of the (preprocessed) data can be found in `./data/`.
 
