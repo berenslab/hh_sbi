@@ -28,7 +28,7 @@ Run `./code/build_amortized_posteriors.ipynb` to produce amortized posteriors se
 Run `./code/report_performances.ipynb` to compare the closeness of model simulations, especially based on maximum a posteriori estimates derived from the different posteriors, to experimental observations.
 
 ### 5. Deploy sparse reduced-rank regression and sparse bottleneck neural networks
-Run `./code/deploy_sRRR_and_sBNN/cross-validation.ipynb` to run linear and nonlinear regression analyses that predict maximum a posteriori estimates from **NPE+**, i.e. fitted Hodgkin-Huxley model parameters, from gene expression levels. This work is inspired by code found [here](https://github.com/berenslab/patch-seq-rrr) and [here](https://github.com/berenslab/sBNN).
+Run `./code/deploy_sRRR_and_sBNN/cross-validation.ipynb` to run linear and nonlinear regression analyses that predict maximum a posteriori estimates from **NPE-N**, i.e. fitted Hodgkin-Huxley model parameters, from gene expression levels. This work is inspired by code found [here](https://github.com/berenslab/patch-seq-rrr) and [here](https://github.com/berenslab/sBNN).
 
 ### 7. Model without scaling $r_{SS}$ parameter
 Run `./code/without_rSS/build_simulations.ipynb` to produce Hodgkin-Huxley model simulations without the $r_{SS}$ parameter.
