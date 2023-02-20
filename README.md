@@ -1,5 +1,5 @@
 # Hybrid statistical-mechanistic modeling links ion channel genes to physiology of cortical neuron types
-![NPE_vs_NPE+](figures/figure_1abc.png)
+![NPE_vs_NPE-N](figures/figure_1abc.png)
 
 *Yves Bernaerts, Michael Deistler, Pedro J. Gonçalves, Jonas Beck, Marcel Stimberg, Federico Scala, Andreas S. Tolias, Jakob Macke, Dmitry Kobak & Philipp Berens. (2023)* 
 
@@ -9,6 +9,8 @@ This repository contains the analysis code and the preprocessed data for the abo
 Raw electrophysiological recordings can be publicly downloaded [here](https://dandiarchive.org/dandiset/000008/draft) corresponding to a study published in [Nature](https://www.nature.com/articles/s41586-020-2907-3). Instructions on how to do so with `dandi` are also found there. Make sure you download the data in `./data/raw_data`.
 <br>
 You will also need `SmartSeq_cells_AIBS.pickle` in `./data/` that can be downloaded from [here](https://zenodo.org/record/5118962#.Y-IkqHbMIuU).
+<br>
+Unzip file `code/save_model_parameters/favourite_training_schedule.zip` and put in the same folder as `favourite_training_schedule.pickle`.
 <br>
 The rest of the (preprocessed) data can be found in `./data/`.
 
@@ -20,7 +22,7 @@ Run `./code/preprocess.ipynb` (optionally) to automatically extract summary stat
 Run `./code/build_simulations.ipynb` to produce Hodgkin-Huxley model simulations with the simulation package Brian2 (see Requirements). We also used the parallel processing package pathos (see Requirements) that you can use if your station has multiple cpu's available. Otherwise one can change the number of available resources by changing the  
 
 ### 3. Build amortized posteriors with neural posterior estimation
-Run `./code/build_amortized_posteriors.ipynb` to produce amortized posteriors set up with different training schedules. Two of the posteriors will be **NPE** and **NPE+** discussed in the mansucript. We use the simulator-based inference package sbi (see Requirements).
+Run `./code/build_amortized_posteriors.ipynb` to produce amortized posteriors set up with different training schedules. Two of the posteriors will be **NPE** and **NPE-N** discussed in the mansucript. We use the simulator-based inference package sbi (see Requirements).
 
 ### 4. Report performance
 Run `./code/report_performances.ipynb` to compare the closeness of model simulations, especially based on maximum a posteriori estimates derived from the different posteriors, to experimental observations.
