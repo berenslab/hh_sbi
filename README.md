@@ -45,4 +45,4 @@ Run `./figures/figure_x.ipynb` to produce Figure **x** in the manuscript.
 ## Usage
 Install the following dependencies before you run the notebook.
 <br>
-pip install -r requirements.txt
+`pip install -r requirements.txt`
