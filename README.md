@@ -12,7 +12,7 @@ You will also need `SmartSeq_cells_AIBS.pickle` in `./data/` that can be downloa
 <br>
 Unzip file `code/save_model_parameters/favourite_training_schedule.zip` and put it in the same folder as `favourite_training_schedule.pickle`.
 <br>
-You can also download our synthetic data sets `full_batch.npz`, `best_1000_Euclidean_sims.npz` and `full_batch_without_rSS.npz` from [here](https://zenodo.org/record/7684916#.Y_4UCHbMIuU) with which we built amortized posteriors and produced main and supplementary figures, in case you do not intend to run simulations on your infrastructure. Please put `full_batch.npz` and `best_1000_Euclidean_sims.npz` in `code/save_sims/M1_chunks/` and `full_batch_without_rSS.npz` in `code/without_rSS/save_sims/M1_chunks/`.
+You can also download our synthetic data sets `full_batch.npz`, `best_1000_Euclidean_sims.npz` and `full_batch_without_rSS.npz` from [here](https://zenodo.org/record/7716391#.ZAsq9nbMIuV) with which we built amortized posteriors and produced main and supplementary figures, in case you do not intend to run simulations on your infrastructure. Please put `full_batch.npz` and `best_1000_Euclidean_sims.npz` in `code/save_sims/M1_chunks/` and `full_batch_without_rSS.npz` in `code/without_rSS/save_sims/M1_chunks/`.
 <br>
 The rest of the (preprocessed) data can be found in `./data/`.
 
