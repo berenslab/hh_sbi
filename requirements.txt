@@ -1,0 +1,16 @@
+numpy
+dandi
+matplotlib
+seaborn
+scipy
+glmnet_py
+jupyter
+jupyter-black
+ipywidgets
+watermark
+pynwb==2.2.0
+brian2==2.5.0.3
+sbi==0.21.0
+pathos==0.2.8
+opentsne==0.6.2 
+tensorflow==2.7.0
