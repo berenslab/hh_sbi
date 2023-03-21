@@ -38,8 +38,6 @@ Run `./code/without_rSS/build_simulations.ipynb` to produce Hodgkin-Huxley model
 ### 8. Figures
 Run `./figures/figure_x.ipynb` to produce Figure **x** in the manuscript.
 <br>
-<br>
-We have used [fslm](https://github.com/berenslab/fslm) to extract most constraining summary statistics and produce Figure 2. This will also be included in this repository (soon).
 
 
 ## Usage
