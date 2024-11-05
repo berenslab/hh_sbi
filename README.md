@@ -1,4 +1,4 @@
-# Hybrid statistical-mechanistic modeling links ion channel genes to physiology of cortical neuron types
+# Combined statistical-biophysical modeling links ion channel genes to physiology of cortical neuron types
 ![NPE_vs_NPE-N](figures/figure_1abc.png)
 
 *Yves Bernaerts, Michael Deistler, Pedro J. Gonçalves, Jonas Beck, Marcel Stimberg, Federico Scala, Andreas S. Tolias, Jakob Macke, Dmitry Kobak & Philipp Berens. (2023)* 
