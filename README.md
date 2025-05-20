@@ -1,7 +1,7 @@
 # Combined statistical-biophysical modeling links ion channel genes to physiology of cortical neuron types
 ![NPE_vs_NPE-N](figures/bridge.jpeg)
 
-*Yves Bernaerts, Michael Deistler, Pedro J. Gonçalves, Jonas Beck, Marcel Stimberg, Federico Scala, Andreas S. Tolias, Jakob Macke, Dmitry Kobak & Philipp Berens. (2023)* 
+*Yves Bernaerts, Michael Deistler, Pedro J. Gonçalves, Jonas Beck, Marcel Stimberg, Federico Scala, Andreas S. Tolias, Jakob Macke, Dmitry Kobak & Philipp Berens. (2025)* 
 
 This repository contains the analysis code and the preprocessed data for the above manuscript.
 
@@ -44,3 +44,6 @@ Run `./figures/figure_x.ipynb` to produce Figure **x** in the manuscript.
 Install the following dependencies before you run the notebook.
 <br>
 `pip install -r requirements.txt`
+
+## Update (2025)
+The entire pipeline has been tested on mouse visual cortex data too from [this study](https://www.sciencedirect.com/science/article/pii/S009286742031254X). See the manuscript and code for details. Figures can be reproduced in `./figures/V1/*.ipynb` notebooks.
