@@ -3,7 +3,7 @@
 
 *Yves Bernaerts, Michael Deistler, Pedro J. Gonçalves, Jonas Beck, Marcel Stimberg, Federico Scala, Andreas S. Tolias, Jakob Macke, Dmitry Kobak & Philipp Berens. (2025)* 
 
-This repository contains the analysis code and the preprocessed data for the above manuscript.
+This repository contains all the code for the (pre)processing and analysis of data as well as the production of figures in this manuscript.
 
 ## Raw data
 Raw electrophysiological recordings can be publicly downloaded [here](https://dandiarchive.org/dandiset/000008/draft) corresponding to a study published in [Nature](https://www.nature.com/articles/s41586-020-2907-3). Instructions on how to do so with `dandi` are also found there. Make sure you download the data in `./data/raw_data`.
