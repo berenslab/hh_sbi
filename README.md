@@ -47,3 +47,8 @@ Install the following dependencies before you run the notebook.
 
 ## Update (2025)
 The entire pipeline has been tested on mouse visual cortex data too from [this study](https://www.sciencedirect.com/science/article/pii/S009286742031254X). See the manuscript and code for details. Figures can be reproduced in `./figures/V1/*.ipynb` notebooks.
+
+## Contact
+Lead contact: philipp.berens@uni-tuebingen.de
+<br>
+First author: yves.bernaerts@research.fchampalimaud.org
