@@ -51,4 +51,4 @@ The entire pipeline has been tested on mouse visual cortex data too from [this s
 ## Contact
 Lead contact: philipp.berens@uni-tuebingen.de
 <br>
-First author: yves.bernaerts@research.fchampalimaud.org
+First author: yvesbernaerts80@gmail.com
